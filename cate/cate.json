@@ -1,0 +1,24 @@
+{
+    "name": "Category",
+    "type":"cate",
+    "item":[
+        {
+            "name":"bicycle",
+            "video_count":"2",
+            "image_src":"cate/bicycle/bicycle.png",
+            "uri":"cate/bicycle/bicycle.json"
+        },
+        {
+            "name":"gym",
+            "video_count":"0",
+            "image_src":"cate/gym/gym.png",
+            "uri":""
+        },
+        {
+            "name":"running",
+            "video_count":"0",
+            "image_src":"cate/running/running.png",
+            "uri":""
+        }
+    ]
+}
