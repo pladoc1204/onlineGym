@@ -1,0 +1,16 @@
+{
+    "name": "category: bicycle",
+    "type":"video_cate",
+    "item":[
+        {
+            "name":"bic_video1",
+            "image_src":"video/bic_video1/bic_video1.jpg",
+            "uri":"video/bic_video1/bic_video1.mp4"
+        },
+        {
+            "name":"bic_video2",
+            "image_src":"video/bic_video2/bic_video2.png",
+            "uri":"video/bic_video2/bic_video2.mp4"
+        }
+    ]
+}

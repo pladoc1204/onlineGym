@@ -2,6 +2,9 @@ package com.gym.component;
 
 
 
+import com.intellij.uiDesigner.core.GridConstraints;
+import com.intellij.uiDesigner.core.GridLayoutManager;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -24,66 +27,66 @@ public class CategoryItem {
     private JPanel attr;
 
 
-
-    public CategoryItem(String Image_src,String cateTitle,int width,int height, MouseListener listener){
+    public CategoryItem(String Image_src, String cateTitle, int width, int height, MouseListener listener) {
         this.imageContainer.setBorder(BorderFactory.createRaisedBevelBorder());
         this.setCateTitle(cateTitle);
-        this.setImage(Image_src,width,height);
+        this.setImage(Image_src, width, height);
         attr.remove(0);
         body.addMouseListener(listener);
-        body.setPreferredSize(new Dimension(470,-1));
+        body.setPreferredSize(new Dimension(470, -1));
     }
 
-    public CategoryItem(String Image_src,String cateTitle, int n, MouseListener listener){
-        this(Image_src,cateTitle,100,100,listener);
+    public CategoryItem(String Image_src, String cateTitle, int n, MouseListener listener) {
+        this(Image_src, cateTitle, 100, 100, listener);
     }
 
-    public void setImage(String src,int width,int height) {
-        boolean isSettled =false;
-        try{
+    public void setImage(String src, int width, int height) {
+        boolean isSettled = false;
+        try {
             File raw_image = new File(src);
             BufferedImage read = ImageIO.read(raw_image);
-            Image img=read.getScaledInstance(width,height,Image.SCALE_SMOOTH);
+            Image img = read.getScaledInstance(width, height, Image.SCALE_SMOOTH);
             ImageIcon icon = new ImageIcon(img);
             image.setIcon(icon);
             image.updateUI();
-            isSettled=true;
-        }catch (IOException e){
-            System.out.println("cannot load image from "+src);
+            isSettled = true;
+        } catch (IOException e) {
+            System.out.println("cannot load image from " + src);
             image.updateUI();
         }
-        if(isSettled==false){
-            try{
+        if (isSettled == false) {
+            try {
                 File raw_image = new File("src/icon/default.jpg");
                 BufferedImage read = ImageIO.read(raw_image);
-                Image img=read.getScaledInstance(width,height,Image.SCALE_SMOOTH);
+                Image img = read.getScaledInstance(width, height, Image.SCALE_SMOOTH);
                 ImageIcon icon = new ImageIcon(img);
                 image.setIcon(icon);
                 image.updateUI();
-                isSettled=true;
-        } catch (IOException e) {
+                isSettled = true;
+            } catch (IOException e) {
                 System.out.println("cannot load the default image!!!");
             }
         }
     }
 
     public void setImage(String src) {
-        this.setImage(src,100,100);
+        this.setImage(src, 100, 100);
     }
 
-    public void setCateTitle(String cateTitle){
+    public void setCateTitle(String cateTitle) {
         cateName.setText(cateTitle);
     }
 
-    public void setVideoCounts(int n){
-        videoCounts.setText(""+n);
+    public void setVideoCounts(int n) {
+        videoCounts.setText("" + n);
     }
 
-    public JPanel getMainComp(){
+    public JPanel getMainComp() {
         return body;
     }
+
     public static void main(String[] args) {
-        JFrame frame=new JFrame("categoryItemBuildTest");
+        JFrame frame = new JFrame("categoryItemBuildTest");
         CategoryItem mainFrame = new CategoryItem("D:\\workplace\\onlineGym\\src\\icon\\default.jpg", "humorous", 10,
                 new MouseListener() {
                     @Override

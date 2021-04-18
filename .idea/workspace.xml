@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="onlineGym:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f37619-9d3d-4498-850b-d2a9ab0bbc21" name="Default Changelist" comment="" />
+    <list default="true" id="97f37619-9d3d-4498-850b-d2a9ab0bbc21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/onlineGym_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext/code/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext/code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/onlineGym/com/gym/component/CategoryItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/onlineGym/com/gym/component/CategoryItem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/onlineGym/com/gym/component/CategoryItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/onlineGym/com/gym/component/CategoryItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/onlineGym/com/gym/tool/FileSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/onlineGym/com/gym/tool/FileSearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/onlineGym/com/gym/view/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/onlineGym/com/gym/view/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gym/component/CategoryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gym/component/CategoryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gym/tool/FileSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gym/tool/FileSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gym/view/MainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gym/view/MainFrame.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gym/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gym/view/MainFrame.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,87 +33,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gym/view/MainFrame.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gym/view/JPanelWithTitle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#addListenersToButtons#0;class#MainFrame#0" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gym/component/CategoryItem.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gym/view/MainFrame.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gym/request/RequestBroker.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gym/component/CategoryItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="304">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setTitle#0;class#RequestBroker#0" />
-                <element signature="method#saveCurrentPanel#0;class#RequestBroker#0" />
-                <element signature="method#setCanva#0;class#RequestBroker#0" />
-                <element signature="method#initParas#0;class#RequestBroker#0" />
-                <element signature="method#initBackButton#0;class#RequestBroker#0" />
-                <element signature="method#backToLastPanel#0;class#RequestBroker#0" />
-                <element signature="method#RequestBroker#0;class#RequestBroker#0" />
+                <element signature="method#main#0;class#CategoryItem#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gym/view/JPanelWithTitle.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gym/view/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="218">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="273" selection-start-line="273" selection-end-line="273" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cate/cate.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gym/tool/JSONTools.java">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/forms_rt.jar!/com/intellij/uiDesigner/core/AbstractLayout.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#readJSONFromUri#0;class#JSONTools#0" />
-              </folding>
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/forms_rt.jar!/com/intellij/uiDesigner/core/GridLayoutManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gym/tool/FileSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="method#printFiles#0;class#FileSearcher#0" />
                 <element signature="method#findFileByNameBFS#0;class#FileSearcher#0" />
@@ -105,13 +111,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gym/module/CateModule.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gym/main/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="200">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gym/tool/UriAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -126,6 +141,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,10 +178,11 @@
         <option value="$PROJECT_DIR$/src/com/gym/main/MainApplication.java" />
         <option value="$PROJECT_DIR$/src/com/gym/component/CategoryItem.form" />
         <option value="$PROJECT_DIR$/src/com/gym/component/CategoryItem.java" />
-        <option value="$PROJECT_DIR$/src/com/gym/view/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/com/gym/view/MainFrame.form" />
         <option value="$PROJECT_DIR$/src/com/gym/request/RequestBroker.java" />
         <option value="$PROJECT_DIR$/src/com/gym/tool/FileSearcher.java" />
+        <option value="$PROJECT_DIR$/src/com/gym/view/MyDataGui.form" />
+        <option value="$PROJECT_DIR$/src/com/gym/view/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/gym/view/MainFrame.form" />
       </list>
     </option>
   </component>
@@ -173,11 +192,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="3218" />
-    <option name="height" value="918" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,11 +213,6 @@
             <path>
               <item name="onlineGym" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlineGym" type="462c0819:PsiDirectoryNode" />
-              <item name="cate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineGym" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,14 +224,30 @@
             <path>
               <item name="onlineGym" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlineGym" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineGym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlineGym" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineGym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlineGym" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,12 +257,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="219" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="303" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618327001707" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618738613175" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/forms_rt.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.1484375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -261,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileSearcher">
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="CateModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gym.module.CateModule" />
       <module name="onlineGym" />
@@ -329,8 +358,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileSearcher" />
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="Application.FileSearcher" />
         <item itemvalue="Application.CategoryItem" />
         <item itemvalue="Application.CateModule" />
         <item itemvalue="Application.test" />
@@ -351,9 +380,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14879356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,8 +392,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23903818" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23796034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,7 +404,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Anonymous Apex" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,14 +452,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/gym/view/MainFrame.java</url>
-          <line>48</line>
+          <line>50</line>
           <properties class="com.gym.view.MainFrame" method="addListenersToButtons">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gym/main/MainApplication.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/onlineGym.iml">
@@ -445,13 +485,6 @@
     <entry file="file://$PROJECT_DIR$/src/icon/cate.png" />
     <entry file="file://$PROJECT_DIR$/src/com/gym/tool/JSONItemSpliter.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gym/main/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gym/tool/UriAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gym/component/VideoCategoryItem.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gym/component/VideoCategoryItem.form" />
     <entry file="file://$PROJECT_DIR$/video/bic_video2/bic_video2.json">
@@ -505,108 +538,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/component/CategoryItem.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/component/CategoryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="45" column="76" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#CategoryItem#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/main/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/icon/WeChat_fonction-combined.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icon/wechat-1024x1024.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/view/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addListenersToButtons#0;class#MainFrame#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cate/cate.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/request/RequestBroker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setTitle#0;class#RequestBroker#0" />
-            <element signature="method#saveCurrentPanel#0;class#RequestBroker#0" />
-            <element signature="method#setCanva#0;class#RequestBroker#0" />
-            <element signature="method#initParas#0;class#RequestBroker#0" />
-            <element signature="method#initBackButton#0;class#RequestBroker#0" />
-            <element signature="method#backToLastPanel#0;class#RequestBroker#0" />
-            <element signature="method#RequestBroker#0;class#RequestBroker#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/view/MainFrame.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="273" selection-start-line="273" selection-end-line="273" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/view/JPanelWithTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/module/CateModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gym/tool/JSONTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readJSONFromUri#0;class#JSONTools#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cate/bicycle/bicycle.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -615,10 +551,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cate/cate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/module/CateModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/request/RequestBroker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="method#setTitle#0;class#RequestBroker#0" />
+            <element signature="method#saveCurrentPanel#0;class#RequestBroker#0" />
+            <element signature="method#setCanva#0;class#RequestBroker#0" />
+            <element signature="method#initParas#0;class#RequestBroker#0" />
+            <element signature="method#initBackButton#0;class#RequestBroker#0" />
+            <element signature="method#backToLastPanel#0;class#RequestBroker#0" />
+            <element signature="method#RequestBroker#0;class#RequestBroker#0" />
+            <element signature="method#setGUI#0;class#RequestBroker#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3952">
+          <caret line="242" column="28" selection-start-line="242" selection-start-column="28" selection-end-line="242" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/tool/JSONTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readJSONFromUri#0;class#JSONTools#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gym/tool/FileSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="method#printFiles#0;class#FileSearcher#0" />
             <element signature="method#findFileByNameBFS#0;class#FileSearcher#0" />
@@ -629,16 +617,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/tool/UriAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/view/MyDataGui.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/view/MyDataGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/component/CategoryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#CategoryItem#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/main/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/forms_rt.jar!/com/intellij/uiDesigner/core/GridLayoutManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/forms_rt.jar!/com/intellij/uiDesigner/core/AbstractLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/component/CategoryItem.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/view/JPanelWithTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/view/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gym/view/MainFrame.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>onlineGym:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

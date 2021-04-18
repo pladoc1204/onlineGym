@@ -1,10 +1,10 @@
 package com.gym.view;
 
 import com.gym.request.RequestBroker;
+import com.intellij.uiDesigner.core.*;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.*;
 
 public class MainFrame {
     private JPanel ButtonArea;
@@ -22,11 +22,11 @@ public class MainFrame {
     private String HOME;
     private RequestBroker requestBroker;
 
-    public MainFrame(String HOME){
-        this.HOME=HOME;
+    public MainFrame(String HOME) {
+        this.HOME = HOME;
         back.setEnabled(false);
         cancelAllButtonBorder();
-        requestBroker=new RequestBroker(HOME,canva,title,back);
+        requestBroker = new RequestBroker(HOME, canva, title, back);
         addListenersToButtons();
     }
 
@@ -39,13 +39,15 @@ public class MainFrame {
         cancelButtonBackground(back);
     }
 
-    public void cancelButtonBackground(JButton jButton){
+    public void cancelButtonBackground(JButton jButton) {
         jButton.setBorder(null);
         jButton.setContentAreaFilled(false);
     }
+
     public JPanel getMainWindow() {
         return mainWindow;
     }
+
     private void addListenersToButtons() {
 
 

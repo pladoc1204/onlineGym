@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="example.gui.SearchPanel">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="db7ba" binding="queryPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="b7cb8" binding="searchPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1fe77" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints border-constraint="Center"/>
+                <properties/>
+              </component>
+              <component id="90329" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <text value="Search"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6b1a8" binding="conditionPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="ec9a4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="2c112" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Type"/>
+                    </properties>
+                  </component>
+                  <component id="7c713" class="javax.swing.JCheckBox" binding="strengthCheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="Strength"/>
+                    </properties>
+                  </component>
+                  <component id="54b" class="javax.swing.JCheckBox" binding="HIITCheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="HIIT"/>
+                    </properties>
+                  </component>
+                  <component id="34830" class="javax.swing.JCheckBox" binding="pilatesCheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="Pilates"/>
+                    </properties>
+                  </component>
+                  <component id="a12e0" class="javax.swing.JCheckBox" binding="yogaCheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="Yoga"/>
+                    </properties>
+                  </component>
+                  <component id="2b3f4" class="javax.swing.JCheckBox" binding="stretchingCheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="Stretching"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="ffff6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="81015" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Difficulty"/>
+                    </properties>
+                  </component>
+                  <component id="2fba7" class="javax.swing.JCheckBox" binding="a1BeginnerCheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="1(beginner)"/>
+                    </properties>
+                  </component>
+                  <component id="a35c1" class="javax.swing.JCheckBox" binding="a2CheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="2"/>
+                    </properties>
+                  </component>
+                  <component id="15cbe" class="javax.swing.JCheckBox" binding="a3CheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="3"/>
+                    </properties>
+                  </component>
+                  <component id="15568" class="javax.swing.JCheckBox" binding="a4CheckBox" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="4"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="95542" binding="displayPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Tag">
+      <member id="e2ac2"/>
+    </group>
+  </buttonGroups>
+</form>
